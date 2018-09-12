@@ -76,10 +76,12 @@ public class ThirdController
 
 	public boolean validInt(String sample)
 	{
+		//Declares and initializes a boolean variable to false.
 		boolean isValid = false;
 
 		try
 		{
+			//Tries to convert the text to an integer.
 			Integer.parseInt(sample);
 			isValid = true;
 		}
